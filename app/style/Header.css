@@ -11,6 +11,13 @@
   height: 40vw;
 }
 
+.header-images .images-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
 .header-title h1 {
   font-size: 9.5rem;
   color: #343a40;
